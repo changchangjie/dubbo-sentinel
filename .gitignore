@@ -1,0 +1,4 @@
+# Project exclude paths
+/dubbo-sentinel-consumer/target/
+/dubbo-sentinel-interface/target/
+/dubbo-sentinel-provider/target/
