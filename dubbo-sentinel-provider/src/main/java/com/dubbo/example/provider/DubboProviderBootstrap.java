@@ -4,13 +4,15 @@ import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
+@SpringBootApplication
 public class DubboProviderBootstrap {
 
     public static void main(String[] args) {
