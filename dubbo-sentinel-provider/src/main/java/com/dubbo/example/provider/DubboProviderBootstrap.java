@@ -17,7 +17,7 @@ public class DubboProviderBootstrap {
 
     public static void main(String[] args) {
 
-        initFlowRules();
+//        initFlowRules();
 
         new SpringApplicationBuilder(DubboProviderBootstrap.class)
                 .run(args);
