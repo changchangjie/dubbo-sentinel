@@ -1,0 +1,17 @@
+dubbo:
+  config-center:
+    address: nacos://127.0.0.1:8848
+    app-name: dubbo-sentinel-provider
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: nacos://127.0.0.1:8848
+#    address: zookeeper://localhost:2181
+  scan:
+    base-packages: com.dubbo.example.provider
+server:
+  port: 9000
+spring:
+  application:
+    name: dubbo-auto-configuration-provider-demo

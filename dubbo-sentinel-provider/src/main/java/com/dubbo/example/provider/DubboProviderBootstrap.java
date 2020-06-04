@@ -10,7 +10,12 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * -Dcsp.sentinel.dashboard.server=localhost:8888
+ * http:localhost:8888
+ * sentinel
+ * sentinel
+ */
 //@EnableAutoConfiguration
 @SpringBootApplication
 public class DubboProviderBootstrap {
