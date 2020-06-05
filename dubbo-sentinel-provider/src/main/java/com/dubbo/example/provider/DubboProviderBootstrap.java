@@ -54,7 +54,7 @@ public class DubboProviderBootstrap {
     public static void main(String[] args) {
 
 //        initFlowRules();
-        loadRules();
+//        loadRules();
 
         new SpringApplicationBuilder(DubboProviderBootstrap.class)
                 .run(args);

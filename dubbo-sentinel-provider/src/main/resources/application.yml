@@ -15,3 +15,7 @@ server:
 spring:
   application:
     name: dubbo-auto-configuration-provider-demo
+project:
+  name: dubbo-sentinel-provider
+nacos:
+  server_addr: localhost:8848
