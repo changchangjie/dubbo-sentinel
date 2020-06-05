@@ -26,10 +26,15 @@ public class DubboProviderBootstrap {
 
     // nacos server ip 默认端口8848
     private static final String remoteAddress = "localhost";
+//    // nacos group
+//    private static final String groupId = "Sentinel:Demo";
+//    // nacos dataId
+//    private static final String dataId = "com.alibaba.csp.sentinel.demo.flow.rule";
+
     // nacos group
-    private static final String groupId = "Sentinel:Demo";
+    private static final String groupId = "SENTINEL_GROUP";
     // nacos dataId
-    private static final String dataId = "com.alibaba.csp.sentinel.demo.flow.rule";
+    private static final String dataId = "com.dubbo.example.provider.DubboProviderBootstrap-flow-rules";
 
     /**
      * nacosJSON格式的配置
