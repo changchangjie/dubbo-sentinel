@@ -34,6 +34,7 @@ public class SentinelFlowRuleInit implements InitializingBean {
             //project.name 参数只能通过 JVM -D 参数方式配置，不能通过properties文件配置
             //设置sentinel-client的appName,databoard那边需要用到
             System.setProperty("project.name", projectName);
+            System.setProperty("csp.sentinel.dashboard.server", "localhost:8899");
 
             String remoteAddress = nocosServerAddr;
             String groupId = GROUP_ID;
